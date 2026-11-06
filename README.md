@@ -8,10 +8,10 @@
 
 [🌐 博客](https://p7ivesc.github.io/) ｜ [🛡 EduSRC 主页](https://src.sjtu.edu.cn/profile/42619/) ｜ [📡 RSS 订阅](https://p7ivesc.github.io/rss.xml)
 
-![Blog](https://img.shields.io/badge/Blog-p7ivesc.github.io-2f6f4f?style=flat-square&logo=githubpages&logoColor=white)
-![CMS](https://img.shields.io/badge/CMS-GitHub%20Issues-181717?style=flat-square&logo=github&logoColor=white)
-![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Feed](https://img.shields.io/badge/Feed-RSS-FFA500?style=flat-square&logo=rss&logoColor=white)
+![Blog](https://cdn.jsdelivr.net/gh/P7IVESC/img@main/badges/blog.svg)
+![CMS](https://cdn.jsdelivr.net/gh/P7IVESC/img@main/badges/cms.svg)
+![Deploy](https://cdn.jsdelivr.net/gh/P7IVESC/img@main/badges/deploy.svg)
+![Feed](https://cdn.jsdelivr.net/gh/P7IVESC/img@main/badges/feed.svg)
 
 </div>
 
@@ -27,9 +27,9 @@
 
 | 分类 | 放什么 | 大概长这样 |
 | --- | --- | --- |
-| **渗透实战** | 有授权的真实目标测试报告，从信息收集到权限获取的完整链路 | Web 漏洞利用、后渗透、痕迹清理 |
-| **靶场复盘** | VPC、靶机与在线练习环境的通关记录，重在思路而不是答案 | Upload-Labs、CMS 靶场、内网横向 |
-| **学习笔记** | 环境搭建、协议原理、工具用法这类成体系的整理 | 域控部署、域渗透、隧道与代理 |
+| **渗透实战**<br/>`PENTEST` | 有授权的真实目标测试报告，从信息收集到权限获取的完整链路 | Web 漏洞利用、后渗透、痕迹清理 |
+| **靶场复盘**<br/>`LABS` | VPC、靶机与在线练习环境的通关记录，重在思路而不是答案 | Upload-Labs、CMS 靶场、内网横向 |
+| **学习笔记**<br/>`NOTES` | 环境搭建、协议原理、工具用法这类成体系的整理 | 域控部署、域渗透、隧道与代理 |
 
 ## ✨ 站点特色
 
