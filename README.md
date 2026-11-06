@@ -57,14 +57,14 @@
 
 Word 或 Markdown 丢进脚本跑一遍，剩下的交给流水线：
 
-```mermaid
-flowchart LR
-  A["Word / Markdown"] --> B["抽图 + 压缩<br/>WebP · 宽 ≤ 1400px"]
-  B --> C["图床<br/>P7IVESC/img"]
-  C --> D["改写为<br/>jsDelivr 链接"]
-  D --> E["建 Issue<br/>+ 分类标签"]
-  E --> F["Gmeek 构建"]
-  F --> G["GitHub Pages"]
+```
+Word / Markdown
+   ├─ 抽图        按文档顺序提取，宽度超过 1400px 自动缩放
+   ├─ 压缩        大截图转 WebP，体积约省一半，小字不糊
+   ├─ 传图床      P7IVESC/img，一次 commit 提交全部图片
+   ├─ 改链接      换成 jsDelivr CDN 地址
+   ├─ 建 Issue    标题取文档标题，打上分类标签
+   └─ 构建        Gmeek 生成静态页 → GitHub Pages
 ```
 
 docx 里塞几十张图也不用一张张传：图片按内容摘要命名，重跑不会重复上传；发布失败会自动退避重试，
